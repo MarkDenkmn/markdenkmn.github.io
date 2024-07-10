@@ -9,6 +9,7 @@
 
 body {
     height: 100%;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -223,6 +224,10 @@ body {
 
 @media (max-width: 600px) {
 
+    .main-image-image {
+        overflow-x: hidden;
+    }
+
     .nav-container {
         padding-inline: 6%;
     }
@@ -326,6 +331,10 @@ body {
 }
 
 @media (max-width: 401px) {
+    .main-header {
+        width: 100%;
+    }
+
     .main-description {
         width: 320px;
     }
