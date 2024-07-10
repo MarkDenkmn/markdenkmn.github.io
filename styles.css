@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 26px;
+}
+
+.nav-logo, .nav-logo-image {
+    width: 48px;
+}
+
+.nav-logo {
+    margin-left: 142px;
+}
+
+.nav-notesync {
+    margin-top: 8px;
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 24px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+
+.nav-trynow {
+    margin-left: auto;
+    background-color: white;
+    padding-inline: 22px;
+    color: #8BA7C2;
+    border: #8BA7C2 3px solid;
+    border-radius: 31px;
+    padding-block: 11px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 174px;
+    height: 48px;
+    flex-shrink: 0;
+    transition: background-color 200ms;
+}
+
+.nav-trynow:hover {
+    background-color: rgba(139, 167, 194, 0.1);
+    cursor: pointer;
+}
+
+/* Main */
+.main {
+    display: flex;
+    margin-top: 128px;
+}
+
+.main-text {
+    margin-left: 176px;
+}
+
+.main-header {
+    width: 396px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 117%;
+    margin-top: 49px;
+}
+
+.main-description {
+    width: 448px;
+    color: #7B7B7D;
+    font-family: "Work Sans", sans-serif;
+    line-height: 179%;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 21px;
+}
+
+.main-footer {
+    width: 361px;
+    line-height: 120%;
+    color: #8BA7C2;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.main-image, .main-image-image {
+    width: 872px;
+    position: relative;
+    left: -28px;
+}
+
+/* Pros */
+.pros-background {
+    background-color: #F9F9F9;
+    margin-top: 177px;
+    width: 100%;
+    height: 1075px;
+    padding-top: 1px;
+}
+
+.pros {
+    height: 538px;
+    width: 1142px;
+    margin-inline: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: 274px 274px;
+    grid-template-columns: 572px, 572px;
+}
+
+.pros-image, .pros-image-image {
+    width: 422px;
+}
+
+.pros-image {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    margin-block: 31px;
+}
+
+.pros-text-1, .pros-text-2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    margin-left: 159px;
+}
+
+.pros-text-1-header, .pros-text-2-header {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 36px;
+    width: 472px;
+}
+
+.pros-text-1-description, .pros-text-2-description {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    line-height: 178%;
+    font-size: 23px;
+    color: #9E9C9F;
+    width: 550px;
+    margin-top: 24px;
+}
+
+.pros-text-2 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    margin-top: 21px;
+}
+
+.pros-trynow {
+    display: block;
+    padding: 38px 59px;
+    background-color: #8BA7C2;
+    color: white;
+    line-height: 120%;
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    border: none;
+    border-radius: 26px;
+    margin-top: 198px;
+    width: 480px;
+    margin-inline: auto;
+    transition: scale 200ms;
+}
+
+.pros-trynow:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.footer-container-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.footer-logo, .footer-logo-image {
+    width: 74px;
+}
+
+.footer-notesync {
+    width: 156px;
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 36px;
+    margin-left: 22px;
+    margin-top: 12px;
+}
+
+.footer-copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: #90919A;
+    line-height: 120%;
+    font-weight: 600px;
+}
+
+@media (max-width: 600px) {
+
+    .nav-container {
+        padding-inline: 6%;
+    }
+
+    .nav-logo {
+        margin-left: 0px;
+    }
+
+    .nav-trynow {
+        margin-right: 0px;
+    }
+
+    .main {
+        display: block;
+        position: relative;
+        margin-top: 53px;
+    }
+
+    .pros {
+        display: block;
+    }
+
+    .main-text {
+        width: 354px;
+        margin-left: 28px;
+    }
+
+    .main-header {
+        font-size: 48px;
+    }
+
+    .main-description {
+        font-size: 15px;
+        width: 354px;
+    }
+
+    .main-image {
+        width: 100%;
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-top: 54px;
+    }
+
+    .main-image-image {
+        position: static;
+        width: 470px;
+    }
+
+    .pros-background {
+        margin-top: 54px;
+        height: 1162px;
+    }
+
+    .pros {
+        margin-inline: 0px;
+        width: 100%;
+    }
+
+    .pros-text-1, .pros-text-2 {
+        margin-left: 28px;
+    }
+
+    .pros-text-1-description, .pros-text-1-header, .pros-text-2-description, .pros-text-2-header {
+        max-width: 379px;
+    }
+
+    .pros-text-1-header, .pros-text-2-header {
+        font-size: 24px;
+    }
+
+    .pros-text-1-description, .pros-text-2-description {
+        font-size: 20px;
+    }
+
+    .pros-image, .pros-image-image {
+        width: 246px;
+        margin-inline: auto;
+    }
+    
+    .pros-image {
+        margin-top: 12px;
+        margin-bottom: 60px;
+    }
+
+    .pros-text-1 {
+        margin-top: -38px;
+    }
+
+    .pros-text-2 {
+        margin-top: -4px;
+    }
+
+    .pros-trynow {
+        font-size: 24px;
+        padding-inline: 29px;
+        padding-block: 21px;
+        width: auto;
+        margin-top: 389px;
+    }
+}
+
+@media (max-width: 401px) {
+    .main-description {
+        width: 320px;
+    }
+
+    .main-footer {
+        font-size: 14px;
+        width: 340px;
+    }
+
+    .main-image-image {
+        width: 420px;
+    }
+
+    .pros-text-1-header, .pros-text-2-header {
+        width: 280px;
+    }
+
+    .pros-text-1-description, .pros-text-2-description {
+        width: 320px;
+    }
+
+    .pros-image {
+        margin-top: 50px;
+    }
+
+    .pros-background {
+        height: 1200px;
+    }
+
+    .pros-trynow {
+        margin-top: 460px;
+    }
+}
